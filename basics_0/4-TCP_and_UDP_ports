@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script displays all listening TCP and UDP sockets along with the PID and program name.
+# Use netstat to show listening sockets
+sudo netstat -tulnp | grep LISTEN
